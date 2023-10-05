@@ -1,0 +1,67 @@
+t 785.0 125.0 pred 10 10 nw
+t 580.0 220.0 maj 0 w n
+p 580.0 290.0 update 0 w
+t 580.0 360.0 PuB 0 w n
+t 100.0 220.0 MAJ 0 w n
+p 100.0 275.0 Update 0 e
+t 100.0 355.0 PUB 0 w n
+p 785.0 200.0 {Attente pour accès} 0 w
+t 785.0 270.0 P 0 w n
+p 785.0 355.0 {prédiction} 0 s
+t 885.0 355.0 pub 0 w n
+p 785.0 50.0 timer 1 n
+p 340.0 125.0 {Camera Callback} 0 ne
+p 100.0 125.0 {Lidar Callback} 0 e
+t 25.0 125.0 {>Lim} 0 w n
+t 270.0 125.0 {>lim} 0 w n
+p 580.0 125.0 {Radar Callback} 0 e
+t 340.0 220.0 Maj 0 w n
+p 340.0 280.0 UPDATE 0 e
+t 340.0 355.0 Pub 0 w n
+t 100.0 50.0 L 0 w n
+t 340.0 50.0 C 0 w n
+t 580.0 50.0 R 0 w n
+p 340.0 510.0 {Accès} 1 s
+t 515.0 125.0 lim 0 w n
+p 230.0 225.0 A 1 w
+e {>lim} A 1 n
+e PuB 0.4793318127 270.2757851 A 0.8411098091 53.53503526 1 n
+e Pub 0.5076950439 62.07253821 A 0.7520145122 79.00632886 1 n
+e PUB 0.988232237 54.14794548 A 0.6610961577 47.16990566 1 n
+e A 0.08154931539 36.7151195 R 0.5764222296 54.12023653 1 n
+e A 0.2471326536 111.0180166 C 0.5023403453 68.00735254 1 n
+e A 0.2681105605 105.6834897 L 0.0 108.0 1 n
+e pub 0.7546796787 68.02940541 {Accès} 0.9995087826 324.0015432 1 n
+e {prédiction} pub 1 n
+e pub 0.25 83.0 timer 0.9933723867 96.08329697 1 n
+e P {prédiction} 1 n
+e {Accès} 0.9986039494 228.0087717 P 0.6316973049 134.4693274 1 n
+e {Attente pour accès} P 1 n
+e pred {Attente pour accès} 1 n
+e timer pred 1 n
+e UPDATE Pub 1 n
+e Pub {Accès} 1 n
+e Maj UPDATE 1 n
+e PuB 0.693132557 80.0562302 {Accès} 0.03701258658 92.86763295 1 n
+e update PuB 1 n
+e PUB 0.7546796793 80.89024146 {Accès} 0.4651977569 87.69986146 1 n
+e Update PUB 1 n
+e MAJ Update 1 n
+e maj update 1 n
+e {Accès} 0.1042197606 70.60453243 Maj 0.959764629 123.9395014 1 n
+e {Accès} 0.01993261948 280.1945753 maj 0.002411254027 66.00757532 1 n
+e {Accès} 0.4950665438 258.1240012 MAJ 0.5288579384 61.0 1 n
+e {Camera Callback} Maj 1 n
+e {Radar Callback} maj 1 n
+e {Lidar Callback} MAJ 1 n
+e {Radar Callback} lim 1 n
+e {Lidar Callback} {>Lim} 1 n
+e {Camera Callback} {>lim} 1 n
+e C {Camera Callback} 1 n
+e R {Radar Callback} 1 n
+e L {Lidar Callback} 1 n
+e {>Lim} 0.8237918116 46.95742794 A 0.3435835209 72.11102551 1 n
+e lim 0.5062381738 51.03920062 A 0.0113489355 56.14267539 1 n
+h reseau_de_petri_kalman_sequentiel
+
+
